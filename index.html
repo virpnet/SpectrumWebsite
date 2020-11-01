@@ -960,5 +960,22 @@
     <!-- <script src="js/validator.min.js"></script> -->
      <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+   
+   <script type="text/javascript">
+        (function(w,d){
+          w.HelpCrunch=function(){w.HelpCrunch.q.push(arguments)};w.HelpCrunch.q=[];
+          function r(){var s=document.createElement('script');s.async=1;s.type='text/javascript';s.src='https://widget.helpcrunch.com/';(d.body||d.head).appendChild(s);}
+          if(w.attachEvent){w.attachEvent('onload',r)}else{w.addEventListener('load',r,false)}
+        })(window, document)
+        </script>
+        
+        <script type="text/javascript">
+          HelpCrunch('init', 'virpnet', {
+            applicationId: 1,
+            applicationSecret: 'F0WKiP4c/cy1gfsrObuzTh9hx0uoiPnGEhCJflWcr0ipfJG3mHn9dzFtUJ1AuDWO400v1qEgSnFnOQq1INdIYQ=='
+          });
+        
+          HelpCrunch('showChatWidget');
+        </script>
 </body>
 </html>
