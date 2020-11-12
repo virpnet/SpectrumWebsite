@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "s:\\Development\\virpnet\\SpectrumWebsite\\index.html"
+            "file": "index.html"
         }
     ]
 }

@@ -744,6 +744,10 @@ input[type='checkbox'] {
 	padding: 0;
 }
 
+.cards-1 .card-text {
+	padding: 0;
+	text-align: left;
+}
 
 /*************************/
 /*     07. Details 1     */
